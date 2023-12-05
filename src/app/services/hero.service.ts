@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import { Hero } from '../models/hero.interface';
-import { HEROES } from '../models/mock-heroes';
+import { Hero } from '../heroes/models/hero.interface';
+import { HEROES } from '../heroes/models/mock-heroes';
 import { Observable, of } from 'rxjs';
-import { MessageService } from '../../messages/services/message.service';
+import { MessageService } from './message.service';
 
 @Injectable({
   providedIn: 'root'
